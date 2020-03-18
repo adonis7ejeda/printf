@@ -19,11 +19,11 @@ for (; format && format[i]; i++)
 {
 if (format[i] != '%')
 {
-lens += _putchar(format[i]);
+len += _putchar(format[i]);
 }
 else if (format[i] == '%' && format[i + 1] == '%')
 {
-lens += _putchar('%');
+len += _putchar('%');
 i++;
 }
 else
