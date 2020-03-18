@@ -8,6 +8,8 @@ int _putchar(char c);
 int _printf(const char *format, ...);
 int f_character(va_list char_list);
 int f_string(va_list char_list);
+int f_integer(va_list char_list);
+int print_integer(long num);
 /**
  * struct call_function - character and function
  * @sp_char: character that specifies the
