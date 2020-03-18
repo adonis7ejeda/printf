@@ -1,0 +1,34 @@
+.\" This is the manpage of the _printf function.
+.TH "2020-16-03" "V1.0" "_printf man page"
+
+.SH NAME
+_printf
+
+.SH DESCRIPTION
+
+This is a function that emulate the function printf of the system, and print integers, character and strings. 
+
+.SH SYNOPSIS
+_prtintf FORMAT [ARGUMENT]...
+
+
+.SH DESCRIPTION
+Displays the ARGUMENT according to the FORMAT received
+
+FORMAT Handles the output type of how it would print in c. According to the character that precedes the argument.
+
+Parameter Of The Format:
+
+%i print a integer.
+
+%d print a integer.
+
+%c print a character.
+
+%s print a string.
+
+
+.SH AUTHOR
+Adonis Tejeda
+and
+Jesus Gonzalez
